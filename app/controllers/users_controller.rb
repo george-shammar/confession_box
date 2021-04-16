@@ -7,10 +7,4 @@ class UsersController < ApplicationController
       @user = User.find(params[:id])
       @post = Post.new
     end
-  
-    def follow
-      @user = User.find(params[:id])
-      current_user.followed_users << @user
-      redirect_back(fallback_location: user_path(@user))
-    end
   end

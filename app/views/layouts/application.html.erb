@@ -14,16 +14,15 @@
   </head>
 
   <body>
-      <%= navbar_button_sign_out %>
-      <%= navbar_button_log_in %>
-
-       
-
+      
+     
 <div class="content">
   <div id="header">
     <div class="title">
       <h1>The Confession Box</h1>
-      <h3>Since 1600 b.c</h3>
+      <h3>Since 1576</h3>
+      <%= navbar_button_log_in %>
+      <%= navbar_button_sign_out %>
     </div>
   </div>
   <div id="main">
@@ -33,22 +32,17 @@
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec sem. Praesent eu metus. Vivamus ac urna. Maecenas tincidunt libero id ipsum. Duis ipsum erat, laoreet in, ultrices at, blandit non, enim. Maecenas et libero. In laoreet vehicula enim. Nam at massa. Donec porttitor, odio id scelerisque pretium, augue eros cursus est, eget interdum dui justo et tellus. Aenean a neque eu mauris ultrices viverra. In ac urna. Etiam in dolor sit amet arcu auctor interdum. Fusce non quam. Nunc aliquet, quam eu facilisis venenatis, pede augue adipiscing lorem, nec tincidunt nunc felis eget odio. Integer iaculis pretium odio. Integer viverra. Integer porttitor elementum diam. In hac habitasse platea dictumst. Donec porta elit.
       <p class="date">Posted by Jack <img src="images/more.gif" alt="" /> <a href="#">Read more</a> <img src="images/comment.gif" alt="" /> <a href="#">Comments (15)</a> <img src="images/timeicon.gif" alt="" /> 17.01.</p>
       <br />
-      <h2><a href="#">Try it with sNews 1.4</a></h2>
-      <h3>AND WHY NOT WITH sNEWS 1.5 ;-)</h3>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec sem. Praesent eu metus. Vivamus ac urna. Maecenas tincidunt libero id ipsum. Duis ipsum erat, laoreet in, ultrices at, blandit non, enim. Maecenas et libero. In laoreet vehicula enim. Nam at massa. Donec porttitor, odio id scelerisque pretium, augue eros cursus est, eget interdum dui justo et tellus. Aenean a neque eu mauris ultrices viverra. In ac urna. Etiam in dolor sit amet arcu auctor interdum. Fusce non quam. Nunc aliquet, quam eu facilisis venenatis, pede augue adipiscing lorem, nec tincidunt nunc felis eget odio. Integer iaculis pretium odio. Integer viverra. Integer porttitor elementum diam. In hac habitasse platea dictumst. Donec porta elit.
-      <p class="date">Posted by Jack <img src="images/more.gif" alt="" /> <a href="#">Read more</a> <img src="images/comment.gif" alt="" /> <a href="#">Comments (15)</a> <img src="images/timeicon.gif" alt="" /> 17.01.</p>
-      <br />
+      
     </div>
     <div class="leftmenu">
       <div class="nav">
+      
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Articles</a></li>
-          <li><a href="#">Gallery</a></li>
           <li><a href="#">Affiliates</a></li>
           <li><a href="#">Archives</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+         
         </ul>
       </div>
     </div>
@@ -99,8 +93,11 @@
 
 
 
+      <%= navbar_button_log_in %>
+      <%= navbar_button_sign_out %>
        
+<%= yield %>
 
-    <%= yield %>
+    
   </body>
 </html>

@@ -1,36 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Confessions</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Content</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
+<h1>Confessions</h1><br>
+  
     <% @posts.each do |post| %>
       <h2><%= post.title %></h2>
       <p><%= post.content %></p>
       
       <p class="date">Posted by <%="#{post.user.username}"%> <img src="..assets/images/more.gif" alt="" /> <%= link_to 'Read more', post %> <img src="images/comment.gif" alt="" /> <a href="#">Comments (15)</a> <img src="images/timeicon.gif" alt="" /> 17.01.</p>
-      
-    
-
-      <tr>
-        
-        
-        <td></td>
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
     <% end %>
-  </tbody>
-</table>
-
-<br>
+    <br>
 
 <%= link_to 'New Post', new_post_path %>

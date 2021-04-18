@@ -7,8 +7,9 @@ module ApplicationHelper
   end
 
   def navbar_button_log_in
-    link_to 'Sign in', new_user_session_path, unless user_signed_in?
-  end
+    if !user_signed_in?
+      link_to 'Sign in', new_user_session_path
+    end
   end
 
   def signed_in_as

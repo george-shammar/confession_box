@@ -56,7 +56,7 @@ body { margin:5px 0; padding:0; font: 74% Arial, Sans-Serif; color:#000; line-he
 /* NAVIGATION */
 .nav { clear: both; text-align: left; color: #85621E; padding: 20px 0 0 0; }
 .nav li { font-weight: bold; margin: 0 0 8px 0; padding: 0 0 0 5px; border-bottom: 1px solid #D2B881 }
-.nav li a { color: #546078; text-decoration: none;  }
+.nav li a { color:  #85621E; text-decoration: none;  }
 .nav li a:hover { color: #95722E; text-decoration: none;  }
 
 
@@ -67,10 +67,10 @@ body { margin:5px 0; padding:0; font: 74% Arial, Sans-Serif; color:#000; line-he
 p { 	margin: 0 0 5px 0; 	padding: 0; color: #555; background: inherit; }
 
 hr { border: 0; height: 1px; color: #eee; background-color: #eee; }
-a { 	color: #0F5B7F; background: inherit;  text-decoration:none; }
+a { 	color:  #85621E; background: inherit;  text-decoration:none; }
 a:hover { 	background: inherit; }
 h1 { padding:0; margin:0; color: #0F5B7F; background: inherit;font: bold 1.8em Arial, Sans-Serif; letter-spacing: -1px; }
-h1 a {color: #0F5BFF; background: inherit;}
+h1 a {color:  #85621E; background: inherit;}
 h2 { background-color: inherit; 	color:#85621E; font-size:140%; font-weight:bold; margin: 10px 0 10px 0; padding:0; }
 h2 a { color: #85621E; }
 h2 a:hover { 	color: #BD9C5C; text-decoration: none;}
@@ -100,3 +100,6 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
 .success { color: #000000; background: #FAFAFA;	padding: 7px; margin-top: 5px; margin-bottom: 5px; border: 1px dashed #546078; }
 .success h2 { color: #546078; background: inherit; }
 
+.color {
+    color: #85621E;
+}

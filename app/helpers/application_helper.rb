@@ -13,7 +13,7 @@ module ApplicationHelper
 
   def signed_in_as
     if user_signed_in?
-      link_to current_user.username, user_path
+      link_to current_user.username, users_path
     else
       linkt_to 'Guest', new_user_registration_path
     end

@@ -30,4 +30,5 @@ module ApplicationHelper
       link_to 'New Confession', new_user_session_path
     end
   end
+
 end

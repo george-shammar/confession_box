@@ -12,57 +12,49 @@
   </head>
 
   <body>
+      <div class="content">
+      <div id="header">
+        <div class="title">
+          <h1><%= link_to "The Confession Box", root_path %></h1>
+          <h3>Since 1576.</h3>
+        </div>
+      </div>
+      <div id="main">
+        <div class="center">
+          <%= yield %>
+        </div>
+        <div class="leftmenu">
+          <div class="nav">
+            <ul>
+              <li>
+                <%= home %>
+              </li>
+              <li>
+                <div>
+                  <%= navbar_button_sign_out %>
+                  <%= navbar_button_log_in %>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>Signed in as:</p>
+                  <%= signed_in_as %>
+                </div>
+              </li>
+              <li>
+                <%= new_post_button %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="prefooter">
       
-
-       
-
-
-
-
-
-  <div class="content">
-  <div id="header">
-    <div class="title">
-      <h1><%= link_to "The Confession Box", root_path %></h1>
-      <h3>Since 1576.</h3>
-    </div>
-  </div>
-  <div id="main">
-    <div class="center">
-       <%= yield %>
-    </div>
-    <div class="leftmenu">
-      <div class="nav">
-        <ul>
-          <li>
-            <%= home %>
-          </li>
-          <li>
-            <div>
-              <%= navbar_button_sign_out %>
-              <%= navbar_button_log_in %>
-            </div>
-          </li>
-          <li>
-            <div>
-              <p>Signed in as:</p>
-              <%= signed_in_as %>
-            </div>
-          </li>
-          <li>
-            <%= new_post_button %>
-          </li>
-        </ul>
+      </div>
+      <div id="footer">
+        <div class="padding"> Copyright &copy; 2021 The Confession Box | Design: David Herreman
       </div>
     </div>
-  </div>
-  <div id="prefooter">
-   
-  </div>
-  <div id="footer">
-    <div class="padding"> Copyright &copy; 2021 The Confession Box | Design: David Herreman
-  </div>
-</div>
 
 
 

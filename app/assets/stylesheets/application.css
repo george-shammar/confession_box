@@ -100,6 +100,5 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
 .success { color: #000000; background: #FAFAFA;	padding: 7px; margin-top: 5px; margin-bottom: 5px; border: 1px dashed #546078; }
 .success h2 { color: #546078; background: inherit; }
 
-.color {
-    color: #85621E;
-}
+
+

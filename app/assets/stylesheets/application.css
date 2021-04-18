@@ -104,3 +104,7 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
 .text-decoration {
     text-decoration: none;
 }
+
+.color {
+    color: #0F5BFF;
+}

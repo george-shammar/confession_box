@@ -18,4 +18,8 @@ module ApplicationHelper
       link_to 'Guest', new_user_registration_path
     end
   end
+
+  def home
+    link_to "Home", root_path
+  end
 end

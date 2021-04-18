@@ -3,7 +3,7 @@
 <h1>Confessions</h1><br>
   
     <% @posts.each do |post| %><br>
-      <h2><%= post.title %></h2>
+      <h2><%= link_to post.title, post %></h2>
       <p><%= post.content %></p>
       
       <p class="date">Posted by <%="#{post.user.username}"%> <img src="..assets/images/more.gif" alt="" /> <%= link_to 'Read more', post %> <img src="images/comment.gif" alt="" /> <a href="#">Comments (15)</a> <img src="images/timeicon.gif" alt="" /> <%= post.created_at %></p>

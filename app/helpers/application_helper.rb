@@ -22,4 +22,12 @@ module ApplicationHelper
   def home
     link_to "Home", root_path
   end
+
+  def new_post_button
+    if user_signed_in?
+      link_to 'New Confession', new_post_path
+    else
+      link_to 'New Confession', new_user_session_path
+    end
+  end
 end

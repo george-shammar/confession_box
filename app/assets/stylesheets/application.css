@@ -68,7 +68,7 @@ p { 	margin: 0 0 5px 0; 	padding: 0; color: #555; background: inherit; }
 
 hr { border: 0; height: 1px; color: #eee; background-color: #eee; }
 a { 	color: #0F5B7F; background: inherit;  text-decoration:none; }
-a:hover { 	background: inherit;	text-decoration: underline; }
+a:hover { 	background: inherit; }
 h1 { padding:0; margin:0; color: #0F5B7F; background: inherit;font: bold 1.8em Arial, Sans-Serif; letter-spacing: -1px; }
 h1 a {color: #0F5BFF; background: inherit;}
 h2 { background-color: inherit; 	color:#85621E; font-size:140%; font-weight:bold; margin: 10px 0 10px 0; padding:0; }

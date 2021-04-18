@@ -8,4 +8,6 @@ class User < ApplicationRecord
   validates :password, presence: true, length: { minimum: 6 }
 
   has_many :posts, class_name: 'Post', foreign_key: 'user_id', dependent: :destroy
+
+  has_many :likes, dependent: :destroy
 end

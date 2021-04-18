@@ -9,7 +9,12 @@
   <strong>Content:</strong>
   <%= @post.content %>
 </p>
+<p class="date">Posted by <%="#{@post.user.username}"%> <%= like_or_dislike_btn(@post) %><%= like_count(@post) %> | Comments (15) | <i class="far fa-clock"></i> <%= @post.created_at.strftime("%Y/%m/%d") %></p>
 
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Destroy', @post, method: :delete, data: { confirm: 'Are you sure?' } %> |
-<%= link_to 'Back', posts_path %>
+
+
+  <%= link_to 'Edit', edit_post_path(@post) %> |
+  <%= link_to 'Destroy', @post, method: :delete, data: { confirm: 'Are you sure?' } %> |
+  <%= link_to 'Back', posts_path %>
+
+

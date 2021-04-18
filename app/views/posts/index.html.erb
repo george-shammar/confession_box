@@ -7,6 +7,8 @@
       <p><%= post.content %></p>
       
       <p class="date">Posted by <%="#{post.user.username}"%> | <%= link_to 'Read more', post %> | <%= like_or_dislike_btn(post) %><%= like_count(post) %> | Comments (15) | <i class="far fa-clock"></i> <%= post.created_at.strftime("%Y/%m/%d") %></p>
+
+
     <% end %>
     
 

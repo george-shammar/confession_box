@@ -11,3 +11,8 @@ def like_count(post)
     @like = Like.where(post_id: post.id)
     @like.count
 end
+
+
+def comment_count(post)
+    
+end

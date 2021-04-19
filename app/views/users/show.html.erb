@@ -4,3 +4,7 @@
 <h3>Date registered: <%= @user.created_at%></h3><br>
 
 <h3>Confession's submitted</h3>
+<% Post.where(user_id: @user.id).each do |post| %><br>
+     <h2><%= link_to post.title, post %></h2>
+<% end %>
+     

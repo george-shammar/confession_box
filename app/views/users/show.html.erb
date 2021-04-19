@@ -3,12 +3,12 @@
 
 <h3>Date registered: <%= @user.created_at%></h3><br>
 
-<h2>Confession's submitted</h3>
-<% Post.where(user_id: @user.id).each do |post| %><br>
-    <ul>
+<h2>Confession's submitted</h3><br>
+<% Post.where(user_id: @user.id).each do |post| %>
+    <ol>
         <li>
          <p><%= link_to post.title, post %></p>
         </li>
-    </ul>
+    </ol>
 <% end %>
      

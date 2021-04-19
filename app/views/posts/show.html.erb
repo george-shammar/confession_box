@@ -9,7 +9,7 @@
   <strong>Content:</strong>
   <%= @post.content %>
 </p>
-<p class="date">Posted by <%="#{@post.user.username}"%> <%= like_or_dislike_btn(@post) %><%= like_count(@post) %> | Comments (15) | <i class="far fa-clock"></i> <%= @post.created_at.strftime("%Y/%m/%d") %></p>
+<p class="date">Posted by <%="#{@post.user.username}"%> <%= like_or_dislike_btn(@post) %><%= like_count(@post) %> | Comments (<%= comment_count(@post)%>) | <i class="far fa-clock"></i> <%= @post.created_at.strftime("%Y/%m/%d") %></p>
 
 
 <% if current_user == @post.user %>

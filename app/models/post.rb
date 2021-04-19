@@ -14,5 +14,6 @@ end
 
 
 def comment_count(post)
-    
+    @comment = Comment.where(post_id: post.id)
+    @comment.count
 end

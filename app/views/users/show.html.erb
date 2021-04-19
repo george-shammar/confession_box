@@ -7,7 +7,7 @@
 <% Post.where(user_id: @user.id).each do |post| %><br>
     <ul>
         <li>
-         <h3><%= link_to post.title, post %></h3>
+         <p><%= link_to post.title, post %></p>
         </li>
     </ul>
 <% end %>

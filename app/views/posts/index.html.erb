@@ -6,7 +6,7 @@
       <h2><%= link_to post.title, post %></h2>
       <p><%= post.content %></p>
       
-      <p class="date">Posted by <%="#{post.user.username}"%> | <%= link_to 'Read more', post %> | <%= like_or_dislike_btn(post) %><%= like_count(post) %> |<%=link_to "Comments", post %>(<%= comment_count(post)%>) | <i class="far fa-clock"></i> <%= post.created_at.strftime("%Y/%m/%d") %></p>
+      <p class="date">Posted by <%=link_to "#{post.user.username}", user_path(@user) %> | <%= link_to 'Read more', post %> | <%= like_or_dislike_btn(post) %><%= like_count(post) %> |<%=link_to "Comments", post %>(<%= comment_count(post)%>) | <i class="far fa-clock"></i> <%= post.created_at.strftime("%Y/%m/%d") %></p>
 
 
     <% end %>

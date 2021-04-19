@@ -5,6 +5,8 @@
 
 <h3>Confession's submitted</h3>
 <% Post.where(user_id: @user.id).each do |post| %><br>
+    <ul>
      <h2><%= link_to post.title, post %></h2>
+    </ul>
 <% end %>
      

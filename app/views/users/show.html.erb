@@ -13,3 +13,10 @@
 <% end %>
      
 <h2>Comments submitted</h3><br>
+<% Comment.where(user_id: @user.id).each do |comment| %>
+    <ol>
+        <li>
+         <p><%= link_to comment.content, post %>      <i class="far fa-clock"></i> <%= comment.created_at.strftime("%Y/%m/%d") %></p>
+        </li>
+    </ol>
+<% end %>

@@ -102,3 +102,6 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
 
 
 
+@media screen and (min-width: 768px) {
+    
+}

@@ -72,3 +72,16 @@ Open `http://localhost:3000/` in your browser.
 - To comment, like or create a new confessions, guests need to sign up.
 - All other in built features (edit profile, delete confession, edit confession) are fully implemented.
 
+
+### Deployment
+
+- Deployed on Heroku
+
+## Author
+
+
+👤 **George Gbenle**
+
+- GitHub: [george-shammar](https://github.com/george-shammar)
+- Twitter: [@GeorgeShammar](https://twitter.com/GeorgeShammar)
+- LinkedIn: [George Gbenle](https://www.linkedin.com/in/georgegbenle/)

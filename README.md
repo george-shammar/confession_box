@@ -66,5 +66,9 @@ Start server with:
 
 Open `http://localhost:3000/` in your browser.
 
+## Usage
 
+- Guests can read confessions of others.
+- To comment, like or create a new confessions, guests need to sign up.
+- All other in built features (edit profile, delete confession, edit confession) are fully implemented.
 

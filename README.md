@@ -22,6 +22,7 @@
 
 - ruby '3.0.0'
 - Ruby on Rails v6.1.3'
+- Database 'postgresql'
 
 
 ## Tools and gems

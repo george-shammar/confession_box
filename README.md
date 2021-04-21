@@ -12,3 +12,5 @@
 
 > The application represents an MVP of the product with the full graphical design but only basic features that would be extended in the future.
 
+![screenshot](./up.png)
+

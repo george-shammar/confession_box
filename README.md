@@ -15,4 +15,5 @@
 ![screenshot](./up.png)
 ![screenshot](./bottom.png)
 ![screenshot](./comment.png)
+![screenshot](.bottom.png)
 

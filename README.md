@@ -17,3 +17,9 @@
 ![screenshot](./comment.png)
 ![screenshot](./profile.png)
 
+
+## Built With
+
+- ruby '3.0.0'
+- Ruby on Rails v6.1.3'
+

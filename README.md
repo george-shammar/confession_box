@@ -102,3 +102,4 @@ Give a ⭐️ if you like this project!
 This project is [MIT](LICENSE) licensed.
 
 ## Acknowledgments
+Design idea by David Herreman.

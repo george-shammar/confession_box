@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @post.content %>
+</p>
+<p class="date">Posted by <%="#{@post.user.username}"%> <%= like_or_dislike_btn(@post) %><%= like_count(@post) %> | Comments (<%= comment_count(@post)%>) | <i class="far fa-clock"></i> <%= @post.created_at.strftime("%Y/%m/%d") %></p>
+
+
+<% if current_user == @post.user %>
+  <%= link_to 'Edit', edit_post_path(@post) %> |
+  <%= link_to 'Destroy', @post, method: :delete, data: { confirm: 'Are you sure?' } %> |
+  <%= link_to 'Back', posts_path %><br>
+
+<% end %>
+
+
+
+<% @post.comments.each do |comment| %><br>
+  <p>
+    <strong>Comment by:</strong>
+    <%= comment.user.username %>
+  </p>
+
+  <p>
+    <strong>Comment:</strong>
+    <%= comment.content %>
+  </p>
+  <p>========================================================================</p>
+<% end %>
+
+<br><h2>Add a comment:</h2>
+<%= form_with model: [ @post, @post.comments.build ] do |form| %>
+  
+  <p>
+    <%= form.label :content %><br>
+    <%= form.text_area :content, class: "width-title"%>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>

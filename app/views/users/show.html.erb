@@ -1,0 +1,22 @@
+
+<h2>Welcome to <%= @user.username%> profile</h2><br>
+
+<h3>Date registered: <%= @user.created_at%></h3><br>
+
+<h2>Confession's submitted</h3><br>
+<% Post.where(user_id: @user.id).each do |post| %>
+    <ol>
+        <li>
+         <p><%= link_to post.title, post %>      <i class="far fa-clock"></i> <%= post.created_at.strftime("%Y/%m/%d") %></p>
+        </li>
+    </ol>
+<% end %>
+     
+<h2>Comments submitted</h3><br>
+<% Comment.where(user_id: @user.id).each do |comment| %>
+    <ol>
+        <li>
+         <p><%= link_to comment.content, post_path %>  <i class="far fa-clock"></i> <%= comment.created_at.strftime("%Y/%m/%d") %></p>  
+        </li>
+    </ol>
+<% end %>

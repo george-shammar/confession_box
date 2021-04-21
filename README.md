@@ -8,4 +8,7 @@
 
 > Registered users could submit their "confessions" anonymously and be listened to by (instead of a priest) the rest of the readers.
 
+> The design uses an old newspaper template to present an ancient appeal of the original confession box. 
+
 > The application represents an MVP of the product with the full graphical design but only basic features that would be extended in the future.
+

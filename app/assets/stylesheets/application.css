@@ -41,17 +41,17 @@ body { margin:5px 0; padding:0; font: 74% Arial, Sans-Serif; color:#000; line-he
 .img { background: #FFF; float: left; padding: 1px; margin: 5px 8px 5px 0; color: #333; border: 1px solid #e0e0e0; }
 
 /* PREFOOTER */
-#prefooter { background: url(prefooter.jpg) no-repeat; color: #85621f; height: 190px; text-align: left;  clear: both; padding: 0px; margin: 0; }
+ #prefooter { background: url(prefooter.jpg) no-repeat; color: #85621f; height: 190px; text-align: left;  clear: both; padding: 0px; margin: 0; }
 #prefooter .particles { float: right; width: 300px; padding: 20px 30px 0 0; background: transparent }
-#prefooter .comments { width: 270px; padding: 20px 0px 0 0px; float: right; background: transparent }
+#prefooter .comments { width: 270px; padding: 20px 0px 0 0px; float: right; background: transparent } 
 
 
 /* FOOTER */
-#footer { background: url(footer.jpg) no-repeat; color: #8f8f8f; height: 44px; text-align: right; font-size: 90%; clear: both; padding: 0; margin: 0;}
+ #footer { background: url(footer.jpg) no-repeat; color: #8f8f8f; height: 44px; text-align: right; font-size: 90%; clear: both; padding: 0; margin: 0;}
 #footer .padding { padding: 20px 60px 0 0; }
 #footer hr { width: 740px; color: #888; border: 1px solid #f0f0f0; margin: 0 25px 0 25px;  }
 #footer a { 	color: #999;  text-decoration:none; }
-#footer a:hover { text-decoration: underline; color: #FFF;}
+#footer a:hover { text-decoration: underline; color: #FFF;} 
 
 /* NAVIGATION */
 .nav { clear: both; text-align: left; color: #85621E; padding: 20px 0 0 0; }
@@ -78,7 +78,7 @@ h2 a:hover { 	color: #BD9C5C; text-decoration: none;}
 ul { margin: 5px 0 20px 15px; padding : 0; list-style : none;  }
 li { list-style-type: none;	color: #F29900;	margin: 0 0 0px 0;	padding: 0 0 0 0px; }
 li a { color: #546078;  }
-li a:hover { color: #F29900; }
+li a:hover { color: #F29900; } 
 
 /*----------------- for snews --------------------------*/
 
@@ -102,8 +102,29 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
 
 
 
-@media screen and (max-width: 768px) {
-    body {
-        width: 400px;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+
+
+
+
+
+
+

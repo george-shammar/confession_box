@@ -99,7 +99,7 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
         color: #3B2A0A; 
         margin: 0 auto; 
         padding: 0; 
-        width: 825px; 
+        width: 100%;
         background: url(bg2.jpg) repeat-y center bottom; 
     }
 }

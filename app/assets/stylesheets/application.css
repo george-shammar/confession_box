@@ -102,4 +102,10 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
         width: 100%;
         background: url(bg2.jpg) repeat-y center bottom; 
     }
+
+    #header { 
+        background: url(header.jpg) no-repeat; 
+        width: 825px; 
+        height: 213px; 
+        color: #3B2A0A; }
 }

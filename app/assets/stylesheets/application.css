@@ -123,7 +123,7 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
     }
 
     #prefooter { 
-        /* display: none;  */
+        /* display: none; */
         background: url(prefooter.jpg) no-repeat; 
         color: #85621f; 
         height: 190px; 
@@ -133,7 +133,7 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
     }
 
     #footer { 
-        /* display: none;  */
+        /* display: none; */
         background: url(footer.jpg) no-repeat; 
         color: #8f8f8f; 
         height: 44px; 

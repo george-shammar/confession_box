@@ -95,6 +95,15 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
 
 
 @media screen and (max-width: 768px) {
+    body { 
+        margin:5px 0; 
+        padding:0; 
+        font: 74% Arial, Sans-Serif; 
+        color:#000; 
+        line-height: 1.4em; 
+        background : #575757;
+    }
+    
     .content { 
         color: #3B2A0A; 
         background: url(bg2.jpg) repeat-y center bottom;
@@ -126,14 +135,15 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
         /* display: none; */
         background: url(prefooter.jpg) no-repeat; 
         color: #85621f; 
-        height: 190px; 
-        /* text-align: left;   */
-        clear: both; 
-        padding: 0px; margin: 0; 
+        /* height: 190px;  */
+        text-align: left;
+        /* clear: both; 
+        padding: 0px; 
+        margin: 0;  */
+        width: 100%;
     }
 
-    #footer { 
-        /* display: none; */
+    #footer {
         background: url(footer.jpg) no-repeat; 
         color: #8f8f8f; 
         height: 44px; 

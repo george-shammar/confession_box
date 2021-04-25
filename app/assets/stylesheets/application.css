@@ -133,6 +133,13 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
     }
 
     #footer { 
-        display: none; 
-        background: url(footer.jpg) no-repeat; color: #8f8f8f; height: 44px; text-align: right; font-size: 90%; clear: both; padding: 0; margin: 0;}
+        /* display: none;  */
+        background: url(footer.jpg) no-repeat; 
+        color: #8f8f8f; 
+        height: 44px; 
+        text-align: right; 
+        font-size: 90%; 
+        clear: both; 
+        padding: 0; 
+        margin: 0;}
 }

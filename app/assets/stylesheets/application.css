@@ -103,21 +103,20 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
         line-height: 1.4em; 
         background : #575757;
     }
-    
+
     .content { 
         color: #3B2A0A; 
         background: url(bg2.jpg) repeat-y center bottom;
         width: 90%;
     }
 
-    #header { 
-        display: none;
+    #header {
         background: url(header.jpg) no-repeat; 
         width: 100%; 
         /* height: 213px;  */
         color: #3B2A0A; 
     }
-
+    
     #main { 
         background: url(bg.jpg) no-repeat top; 
         height: fit-content;
@@ -129,6 +128,13 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
         width: auto; 
         /* float: right; */
         /* padding: 0 60px 0 0px; */
+    }
+
+    .leftmenu { 
+        width: 30%; 
+        float: left; 
+        padding: 0; 
+        padding: 0 0 0 40px; 
     }
 
     #prefooter { 

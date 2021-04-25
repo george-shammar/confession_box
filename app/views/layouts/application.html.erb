@@ -13,17 +13,14 @@
   <body>
   
       <div class="content">
+
       <div id="header">
         <div class="title">
           <h1>The Confession Box</h1>
           <h3>Since 1576.</h3>
         </div>
       </div>
-      <div id="main">
-        <div class="center">
-          <%= yield %>
-        </div>
-        <div class="leftmenu">
+       <div class="leftmenu">
           <div class="nav">
             <ul>
               <li>
@@ -47,7 +44,13 @@
             </ul>
           </div>
         </div>
+      <div id="main">
+        <div class="center">
+          <%= yield %>
+        </div>
+       
       </div>
+    
       <div id="prefooter">
         
       </div>

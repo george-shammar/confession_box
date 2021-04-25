@@ -95,5 +95,11 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
 
 
 @media screen and (max-width: 768px) {
-    
+    .content { 
+        color: #3B2A0A; 
+        margin: 0 auto; 
+        padding: 0; 
+        width: 825px; 
+        background: url(bg2.jpg) repeat-y center bottom; 
+    }
 }

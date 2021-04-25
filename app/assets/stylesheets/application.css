@@ -105,13 +105,13 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
         display: none;
         background: url(header.jpg) no-repeat; 
         width: 100%; 
-        height: 213px; 
+        /* height: 213px;  */
         color: #3B2A0A; 
     }
 
     #main { 
         background: url(bg.jpg) no-repeat top; 
-        /* height: 353px;  */
+        height: fit-content;
         margin-left: 4%; 
         padding: 0;
     }
@@ -122,6 +122,17 @@ input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc
         /* padding: 0 60px 0 0px; */
     }
 
-    #prefooter { display: none; background: url(prefooter.jpg) no-repeat; color: #85621f; height: 190px; text-align: left;  clear: both; padding: 0px; margin: 0; }
-    #footer { display: none; background: url(footer.jpg) no-repeat; color: #8f8f8f; height: 44px; text-align: right; font-size: 90%; clear: both; padding: 0; margin: 0;}
+    #prefooter { 
+        /* display: none;  */
+        background: url(prefooter.jpg) no-repeat; 
+        color: #85621f; 
+        height: 190px; 
+        /* text-align: left;   */
+        clear: both; 
+        padding: 0px; margin: 0; 
+    }
+
+    #footer { 
+        display: none; 
+        background: url(footer.jpg) no-repeat; color: #8f8f8f; height: 44px; text-align: right; font-size: 90%; clear: both; padding: 0; margin: 0;}
 }

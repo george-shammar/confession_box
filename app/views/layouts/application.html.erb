@@ -31,8 +31,6 @@
                   <%= navbar_button_sign_out %>
                   <%= navbar_button_log_in %>
               
-                  <p>Signed in as:</p>
-                  <%= signed_in_as %>
               
                 <%= new_post_button %>
 
@@ -48,8 +46,8 @@
               <i class="fas fa-bars white small_screen"></i>  
         </div>
         <div class = "navlinks background_black font">
-                <i class="fas fa-home white"><%= home %></i>
-                <p class = "white rooms">Politics</p>
+                <i class="fas fa-home white"><%= home %></i>  
+                <p class = "white rooms">Signed in as:</p><%= signed_in_as %>
                 <p class = "white rooms">Career</p>
                 <p class = "white rooms">Travel</p>
                 <p class = "white rooms">Sports</p>

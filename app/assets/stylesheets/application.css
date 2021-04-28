@@ -14,3 +14,213 @@
  *= require_self
  */
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* main project */
+/* topnav */
+.search_topnav {
+  display: flex;
+}
+.search {
+  border: thick 0.1px grey;
+  border-style: inset;
+}
+.icon {
+  padding: 6px;
+  margin-left: 1px;
+}
+
+.background_red {
+  background-color: #f72210;
+}
+
+.background_black {
+  background-color: black;
+}
+
+.white {
+  color: white;
+}
+
+.topnav_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.right_topnav {
+  display: flex;
+}
+
+.login {
+  margin-left: 5px;
+}
+
+font {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.quick_link {
+  width: 10%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.link {
+  padding-top: 20px;
+}
+
+.motherland {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  width: 89%;
+  font-size: 1.2rem
+}
+
+.small_screen {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.nav_flex {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.large_device {
+  display: none;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.rooms {
+  display: none;
+}
+
+
+
+
+
+/* extra small screen */
+@media screen and (max-width: 380px) {
+  .topnav_flex {
+    display: block;
+  }
+
+  .right_topnav {
+    margin-top: 10px;
+  }
+
+  .search_topnav {
+    display: none;;
+  }
+
+  .top_nav {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+
+
+/* tablet */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .large_device {
+    display: none;
+  }
+
+  .motherland {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+
+/* desktop */
+@media screen and (min-width: 768px) {
+  .mobile_device {
+    display: none;
+  }
+  .large_device {
+    display: flex;
+  }
+
+  .motherland {
+    font-size: 2rem;
+  }
+
+  .navlinks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .rooms {
+    display: block;
+  }
+
+}

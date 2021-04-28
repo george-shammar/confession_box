@@ -15,21 +15,14 @@
 
   <body class="container-fluid font">
      <nav>
-       <div class = topnav_flex>
-          <div class= "search_topnav top_nav">
-            <input type = "text" class = "search" placeholder = "Search...">
-              <i class="fas fa-search icon background_red white"></i>
-                <i class="fas fa-cog icon background_black white"></i>
-              </div>
-          
-        </div>
+       
                 
              
                  
                   
               
               
-                <%= new_post_button %>
+               
 
         <div class = "nav_flex large_device">
           <h1 class = "font motherland white background_red">The Confession Box</h1>
@@ -43,8 +36,9 @@
               <i class="fas fa-bars white small_screen"></i>  
         </div>
         <div class = "navlinks background_black font">
-                <i class="fas fa-home white">  <%= home %></i>  
+                <i class="fas fa-home white">  <%= home %></i>
                 <p class = "white rooms"><%= signed_in_as %></p>
+                 <%= new_post_button %>
                 <div class = "right_topnav white rooms">
                   <i class="fas fa-power-off">  <%= navbar_button_log_in %></i>
                   <p class = "login font"></p>
@@ -53,17 +47,6 @@
             </div>
         </nav>
           <%= yield %>
-       
-
-       
-       
-           
-
-            
-            
-        
-
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

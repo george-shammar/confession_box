@@ -10,8 +10,19 @@
     <script src="https://kit.fontawesome.com/bfb663eab2.js" crossorigin="anonymous"></script>
   </head>
 
-  <body>
-  
+  <body class="container-fluid font">
+     <nav>
+       <div class = topnav_flex>
+                <div class= "search_topnav top_nav">
+                    <input type = "text" class = "search" placeholder = "Search...">
+                    <i class="fas fa-search icon background_red white"></i>
+                    <i class="fas fa-cog icon background_black white"></i>
+                </div>
+                <div class = "right_topnav">
+                    <i class="fas fa-power-off"></i>
+                    <p class = "login font"><%= navbar_button_log_in %></p>
+                </div>
+        </div>
                 <%= home %>
              
                   <%= navbar_button_sign_out %>
@@ -24,21 +35,10 @@
               
           <%= yield %>
        
-<body class="container-fluid font">
-        <!--navigation bar-->
-        <!--topnav-->
-        <nav>
-            <div class = topnav_flex>
-                <div class= "search_topnav top_nav">
-                    <input type = "text" class = "search" placeholder = "Search...">
-                    <i class="fas fa-search icon background_red white"></i>
-                    <i class="fas fa-cog icon background_black white"></i>
-                </div>
-                <div class = "right_topnav">
-                    <i class="fas fa-power-off"></i>
-                    <p class = "login font">Login</p>
-                </div>
-            </div>
+
+       
+       
+           
 
             <!--second navbar-->
             <!--large screen-->

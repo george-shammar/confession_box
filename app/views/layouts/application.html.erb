@@ -24,6 +24,62 @@
               
           <%= yield %>
        
+<body class="container-fluid font">
+        <!--navigation bar-->
+        <!--topnav-->
+        <nav>
+            <div class = topnav_flex>
+                <div class= "search_topnav top_nav">
+                    <input type = "text" class = "search" placeholder = "Search...">
+                    <i class="fas fa-search icon background_red white"></i>
+                    <i class="fas fa-cog icon background_black white"></i>
+                </div>
+                <div class = "right_topnav">
+                    <i class="fas fa-power-off"></i>
+                    <p class = "login font">Login</p>
+                </div>
+            </div>
 
+            <!--second navbar-->
+            <!--large screen-->
+                <div class = "nav_flex large_device">
+                    <h1 class = "font motherland white background_red">motherland naija</h1>
+                    <div class = "quick_link background_red white">
+                        <i class="fas fa-bars"></i>
+                        <p class = "font link">Quick Links</p>
+                    </div>
+                </div>
+                
+            <!--small screen-->
+                <div class = "nav_flex background_red mobile_device">
+                    <h1 class = "font motherland white">motherland naija</h1>
+                    <i class="fas fa-bars white small_screen"></i>  
+                </div>
+            
+            <!--navlinks-->
+            <div class = "navlinks background_black font">
+                <i class="fas fa-home white"></i>
+                <p class = "white rooms">Politics</p>
+                <p class = "white rooms">Career</p>
+                <p class = "white rooms">Travel</p>
+                <p class = "white rooms">Sports</p>
+                <p class = "white rooms">Education</p>
+                <p class = "white rooms">Market Place</p>
+                <p class = "white rooms">Family</p>
+                <p class = "white rooms">Entertainment</p>
+                <p class = "white rooms">Others</p>
+            </div>
+
+        </nav>
+        
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+
+</html>
   </body>
 </html>

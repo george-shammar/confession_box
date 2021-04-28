@@ -12,51 +12,18 @@
 
   <body>
   
-      <div class="content">
-
-      <div id="header">
-        <div class="title">
-          <h1>The Confession Box</h1>
-          <h3>Since 1576.</h3>
-        </div>
-      </div>
-       <div class="leftmenu">
-          <div class="nav">
-            <ul>
-              <li>
                 <%= home %>
-              </li>
-              <li>
-                <div>
+             
                   <%= navbar_button_sign_out %>
                   <%= navbar_button_log_in %>
-                </div>
-              </li>
-              <li>
-                <div>
+              
                   <p>Signed in as:</p>
                   <%= signed_in_as %>
-                </div>
-              </li>
-              <li>
+              
                 <%= new_post_button %>
-              </li>
-            </ul>
-          </div>
-        </div>
-      <div id="main">
-        <div class="center">
+              
           <%= yield %>
-        </div>
        
-      </div>
-    
-      <div id="prefooter">
-        
-      </div>
-      <div id="footer">
-        <div class="padding"> Copyright &copy; 2021 The Confession Box | Design: David Herreman</div>
-    </div>
 
   </body>
 </html>

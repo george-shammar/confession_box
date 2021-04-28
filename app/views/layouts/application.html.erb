@@ -8,6 +8,10 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <script src="https://kit.fontawesome.com/bfb663eab2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
   </head>
 
   <body class="container-fluid font">
@@ -32,6 +36,14 @@
                   <%= signed_in_as %>
               
                 <%= new_post_button %>
+
+        <div class = "nav_flex large_device">
+          <h1 class = "font motherland white background_red">The Confession Box</h1>
+            <div class = "quick_link background_red white">
+              <i class="fas fa-bars"></i>
+                <p class = "font link">Quick Links</p>
+            </div>
+        </div>
               
           <%= yield %>
        
@@ -40,15 +52,8 @@
        
            
 
-            <!--second navbar-->
-            <!--large screen-->
-                <div class = "nav_flex large_device">
-                    <h1 class = "font motherland white background_red">motherland naija</h1>
-                    <div class = "quick_link background_red white">
-                        <i class="fas fa-bars"></i>
-                        <p class = "font link">Quick Links</p>
-                    </div>
-                </div>
+            
+                
                 
             <!--small screen-->
                 <div class = "nav_flex background_red mobile_device">

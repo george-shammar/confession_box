@@ -24,7 +24,6 @@
 
 #menu {
     height:71px;
-    /* padding-top:35px; */
     text-align: right;
     margin:0;
     height:100px;
@@ -37,11 +36,9 @@
 
 #container{
     width:92%;
-    min-width:700px;
+    min-width:400px;
     padding:0 20px;
     margin:0 auto;
-    background:#f0f0f0 url(images/contentbg.png) repeat-x;
-    color:#333;
     text-align:left;
     border-left:1px solid #eef;
     border-right:1px solid #eef;

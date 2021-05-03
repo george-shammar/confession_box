@@ -15,9 +15,34 @@
  */
 
 
- #sitetitle {
+#sitetitle {
     float:left;
     height:100px;
     width: 42%;
     color: #333;
+}
+
+#menu {
+    height:71px;
+    /* padding-top:35px; */
+    text-align: right;
+    margin:0;
+    height:100px;
+    padding:35px 6px 41px 6px;
+    font-size:1.6em;
+    font-weight:normal;
+    letter-spacing:-1px;
+    color: #888;
+}
+
+#container{
+    width:92%;
+    min-width:700px;
+    padding:0 20px;
+    margin:0 auto;
+    background:#f0f0f0 url(images/contentbg.png) repeat-x;
+    color:#333;
+    text-align:left;
+    border-left:1px solid #eef;
+    border-right:1px solid #eef;
 }

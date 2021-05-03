@@ -14,3 +14,10 @@
  *= require_self
  */
 
+
+ #sitetitle {
+    float:left;
+    height:100px;
+    width: 42%;
+    color: #333;
+}

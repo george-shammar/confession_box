@@ -42,4 +42,6 @@
     text-align:left;
     border-left:1px solid #eef;
     border-right:1px solid #eef;
+    background-image: url(../images/water.jpg);
+    background-size: cover;
 }

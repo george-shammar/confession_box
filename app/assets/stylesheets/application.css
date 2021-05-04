@@ -17,6 +17,9 @@
 .content {
     margin-left: 1%;
     margin-right: 1%;
+    color: #3B2A0A; 
+    min-width: 350px; 
+    background: url(bg2.jpg) repeat-y center bottom;
 }
 
 .header {

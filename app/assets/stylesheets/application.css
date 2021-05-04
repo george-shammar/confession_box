@@ -33,3 +33,10 @@
     padding-top: 10%;
     padding-left: 13%;
 }
+
+.header h3 { 
+    background: inherit; 
+    font: bold 1em "Tahoma", Arial; 
+    color: #000;
+    padding-left: 13%;
+}

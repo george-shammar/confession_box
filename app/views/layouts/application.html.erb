@@ -14,18 +14,11 @@
 
   <body>
     <div class="content container-fluid">
-        <nav class="navbar ">
-          <form class="container-fluid justify-content-start">
-            <button class="nav-pills" type="button"> </button>
-            <button class="btn btn-outline-success" type="button"></button>
-            <button class="btn btn-outline-success" type="button"></button>
-            <button class="btn btn-outline-success" type="button"><%= navbar_button_sign_out %><%= navbar_button_log_in %></button>
-          </form>
-        </nav>
+        
 
-        <ul class="nav nav-pills">
+        <ul class="nav nav-pills bg-warning my-2">
           <li class="nav-item">
-            <p class="nav-link active" aria-current="page"><%= home %></p>
+            <p class="nav-link" aria-current="page"><%= home %></p>
           </li>
           <li class="nav-item">
             <p class="nav-link">User: <%= signed_in_as %></p>
@@ -34,8 +27,9 @@
             <p class="nav-link"><%= new_post_button %></p>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <p class="nav-link"><%= navbar_button_sign_out %><%= navbar_button_log_in %></p>
           </li>
+          
         </ul>
       <div class="header">
         <div class="title">

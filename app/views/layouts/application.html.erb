@@ -14,15 +14,29 @@
 
   <body>
     <div class="content container-fluid">
-    <div>
         <nav class="navbar ">
           <form class="container-fluid justify-content-start">
-            <button class="btn btn-outline-success" type="button"> <%= home %></button>
-            <button class="btn btn-outline-success" type="button">User: <%= signed_in_as %></button>
-            <button class="btn btn-outline-success" type="button"><%= new_post_button %></button>
+            <button class="nav-pills" type="button"> </button>
+            <button class="btn btn-outline-success" type="button"></button>
+            <button class="btn btn-outline-success" type="button"></button>
             <button class="btn btn-outline-success" type="button"><%= navbar_button_sign_out %><%= navbar_button_log_in %></button>
           </form>
         </nav>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <p class="nav-link active" aria-current="page"><%= home %></p>
+          </li>
+          <li class="nav-item">
+            <p class="nav-link">User: <%= signed_in_as %></p>
+          </li>
+          <li class="nav-item">
+            <p class="nav-link"><%= new_post_button %></p>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
       <div class="header">
         <div class="title">
           <h1>The Confesssion Box</h1>

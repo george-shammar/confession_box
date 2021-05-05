@@ -21,7 +21,7 @@ module ApplicationHelper
   end
 
   def home
-    link_to "Home", root_path
+    link_to "Home", root_path, class:'me-2'
   end
 
   def new_post_button

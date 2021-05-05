@@ -39,5 +39,9 @@
     background: inherit; 
     font: bold 1em "Tahoma", Arial; 
     color: #000;
-    
+}
+
+.link {
+    color: #546078;
+    font: bold 2em;
 }

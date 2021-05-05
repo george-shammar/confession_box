@@ -13,14 +13,15 @@
   </head>
 
   <body>
-    <div class="content">
+    <div class="content container-fluid">
       <div class="header">
         <div class="title">
           <h1>The Confesssion Box</h1>
            <h3>Since 1576</h3>
         </div>
       </div>
-       <%= home %> <%= signed_in_as %> <%= new_post_button %>  <%= navbar_button_log_in %> <%= navbar_button_sign_out %> 
+       <%= home %>
+       <%= signed_in_as %> <%= new_post_button %>  <%= navbar_button_log_in %> <%= navbar_button_sign_out %> 
                
 
           <%= yield %>

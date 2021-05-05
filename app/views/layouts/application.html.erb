@@ -20,8 +20,15 @@
            <h3>Since 1576</h3>
         </div>
       </div>
-       <%= home %>
-       <%= signed_in_as %> <%= new_post_button %>  <%= navbar_button_log_in %> <%= navbar_button_sign_out %> 
+        <nav class="navbar navbar-light bg-light">
+          <form class="container-fluid justify-content-start">
+            <button class="btn btn-outline-success me-2" type="button"> <%= home %></button>
+            <button class="btn btn-outline-success me-2" type="button">User: <%= signed_in_as %></button>
+            <button class="btn btn-outline-success me-2" type="button"><%= new_post_button %></button>
+            <button class="btn btn-outline-success me-2" type="button"><%= navbar_button_sign_out %><%= navbar_button_log_in %></button>
+          </form>
+        </nav>
+          
                
 
           <%= yield %>

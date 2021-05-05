@@ -45,3 +45,9 @@
     color: #546078;
     font: bold 2em;
 }
+
+.title {
+    background-color: inherit; 
+    color: #85621E; 
+    line-height: 0.2em;
+}

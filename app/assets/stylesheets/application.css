@@ -14,6 +14,10 @@
  *= require_self
  */
 
- .title {
+ .color-white {
      color: white;
+ }
+
+ .navbar {
+     background-color: rgba(4, 4, 110, 0.938);
  }

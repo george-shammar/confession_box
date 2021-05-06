@@ -23,8 +23,8 @@
 
           <div>
             <form class="d-flex nav justify-content-end">
-              <%= home %>
-              <%= signed_in_as %>
+              <span class="badge rounded-pill bg-secondary px-4 me-2"><%= home %></span>
+              <span class="badge rounded-pill bg-secondary px-4"><%= signed_in_as %></span>
               <%= new_post_button %>
               <%= navbar_button_sign_out %><%= navbar_button_log_in %>
             </form>

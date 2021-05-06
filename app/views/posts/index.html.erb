@@ -1,13 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Confessions</h1><br>
-  
+<h3>Confessions</h3><br>
+ 
     <% @posts.each do |post| %><br>
-      <h2 class='title'><%= link_to post.title, post %></h2>
-      <p class='title color-white'><%= post.content %></p>
-      
-      <p class="title color-white">Posted by <%="#{post.user.username}"%> | <%= link_to 'Read more', post %> | <%= like_or_dislike_btn(post) %><%= like_count(post) %> |<%=link_to "Comments", post %>(<%= comment_count(post)%>) | <i class="far fa-clock"></i> <%= post.created_at.strftime("%Y/%m/%d") %></p>
-
+     <div class='border rounded bg-content'>
+        <h2 class='title'><%= link_to post.title, post %></h2>
+        <p class='title color-white'><%= post.content %></p>
+        
+        <p class="title color-white">Posted by <%="#{post.user.username}"%> | <%= link_to 'Read more', post %> | <%= like_or_dislike_btn(post) %><%= like_count(post) %> |<%=link_to "Comments", post %>(<%= comment_count(post)%>) | <i class="far fa-clock"></i> <%= post.created_at.strftime("%Y/%m/%d") %></p>
+      </div>
 
     <% end %>
     

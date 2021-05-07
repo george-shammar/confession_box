@@ -1,7 +1,7 @@
 
-<h2>Welcome to <%= @user.username%> profile</h2><br>
+<h2 class='color-green'>Welcome to <%= @user.username %> profile</h2><br>
 
-<h3>Date registered: <%= @user.created_at%></h3><br>
+<h3 class='color-white'>Date registered: <%= @user.created_at%></h3><br>
 
 <h2>Confession's submitted</h3><br>
 <% Post.where(user_id: @user.id).each do |post| %>

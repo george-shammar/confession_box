@@ -1,4 +1,4 @@
-<div class ="border py-3 mt-3 mx-auto sign-in" style="width: 20%;">
+<div class ="border py-3 mt-3 mx-auto sign-in" style="width: 50%;">
 <%= form_with(model: post) do |form| %>
   <% if post.errors.any? %>
     <div id="error_explanation">
@@ -14,12 +14,12 @@
 <h3 class='color-green'>Create a new confession </h3><br >
   <div class="field">
     <%= form.label :title, class:'color-white' %><br >
-    <%= form.text_field :title, class:"width-title"%>
+    <%= form.text_field :title, class:"text-width"%>
   </div>
 
   <div class="field">
     <%= form.label :content, class:'color-white' %><br >
-    <%= form.text_area :content %>
+    <%= form.text_area :content, class:'text-width' %>
   </div>
 
   <div class="actions">

@@ -3,7 +3,7 @@
 <h3 class='color-white'>The Confession Box</h3><br>
  
     <% @posts.each do |post| %><br>
-     <div class='border rounded rounded-3 bg-content'>
+     <div class='border border-dark shadow p-3 mb-2 bg-body rounded rounded-3 bg-content'>
         <h2 class='title'><%= link_to post.title, post %></h2>
         <p class='title color-white'><%= post.content %></p>
         

@@ -1,3 +1,4 @@
+<div class='pb-5'>
 <p id="notice"><%= notice %></p>
 
 <h3 class='color-white'>
@@ -22,14 +23,14 @@
 
 
 <% @post.comments.each do |comment| %><br>
+
+  <p class='color-white border rounded border-dark'>
+    <strong>Comment:</strong>
+    <%= comment.content %>
+  </p>
   <p class='color-white'>
     <strong>Comment by:</strong>
     <%= comment.user.username %>
-  </p>
-
-  <p class='color-white'>
-    <strong>Comment:</strong>
-    <%= comment.content %>
   </p>
   <p>========================================================================</p>
 <% end %>
@@ -45,3 +46,4 @@
     <%= form.submit %>
   </p>
 <% end %>
+</div>

@@ -29,7 +29,7 @@
 - Devise
 
 ## Live Demo
-
+[Deployed app](https://morning-brushlands-99503.herokuapp.com/)
 
 
 ### Set Up

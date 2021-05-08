@@ -1,11 +1,11 @@
-<div class ="border py-3 mt-3 mx-auto sign-in" style="width: 20%;">
+<div class ="border py-3 mt-3 mx-auto sign-in" style="width: auto;">
 <h2 class='color-green'>Log in</h2><br >
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   
   <div class="field">
     <%= f.label :username, class: 'color-white'%><br >
-    <%= f.text_field :username, autofocus: true %>
+    <%= f.text_field :username, autofocus: true, class:'field' %>
   </div>
   
   <div class="field">

@@ -17,7 +17,7 @@
     <ol>
         <li>
          <p class='color-white'><%= link_to comment.content, post_path %>  <i class="far fa-clock"></i> <%= comment.created_at.strftime("%Y/%m/%d") %></p>  
-         <p class='color-white'>By:</p>
+         <p class='color-white'>By:<%= comment.user.username %></p>
         </li>
     </ol>
 <% end %>

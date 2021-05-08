@@ -24,6 +24,10 @@ module ApplicationHelper
     link_to "Home", root_path
   end
 
+  def navbar_button_edit(user)
+    link_to 'Edit profile', edit_user_registration_path if user_signed_in?
+  end
+
   def new_post_button
     if user_signed_in?
       link_to 'New Confession', new_post_path
